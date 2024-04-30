@@ -21,4 +21,8 @@ class TestCalculator:
         result = calculator.divide(10, 2)
         assert result == 5
 
+def test_add():
+    calculator = Calculator()
+    assert 4 == calculator.add(2, 2)
+
 
